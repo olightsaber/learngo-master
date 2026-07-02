@@ -31,16 +31,6 @@ fmt.Print(int(6.5))
 ## What does this code print?
 ```go
 area := 10.5
-fmt.Print(area/2)
-```
-* 5.25 *CORRECT*
-* 5 
-* 0
-* Error
-
-## What does this code print?
-```go
-area := 10.5
 div := 2
 fmt.Print(area/div)
 ```

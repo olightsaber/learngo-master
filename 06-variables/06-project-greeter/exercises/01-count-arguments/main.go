@@ -19,11 +19,15 @@ package main
 // EXPECTED OUTPUT
 //  There are 3 names.
 // ---------------------------------------------------------
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 	// UNCOMMENT & FIX THIS CODE
-	// count := ?
+	count := len(os.Args) - 1
 
 	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
-	// fmt.Printf("There are %d names.\n", count)
+	fmt.Printf("There are %d names.\n", count)
 }

@@ -26,11 +26,19 @@ package main
 //  Hello great bungo !
 //  Nice to meet you all.
 // ---------------------------------------------------------
+import (
+	f "fmt"
+	"os"
+)
 
 func main() {
 	// TYPE YOUR CODE HERE
-
+	f.Println("There are", len(os.Args)-1, "people!")
+	f.Println("Hello great", os.Args[1], "!")
+	f.Println("Hello great", os.Args[2], "!")
+	f.Println("Hello great", os.Args[3], "!")
 	// BONUS #1:
 	// Observe the error if you pass less then 3 arguments.
 	// Search on the web how to solve that.
+	f.Println("Nice to meet you all.")
 }

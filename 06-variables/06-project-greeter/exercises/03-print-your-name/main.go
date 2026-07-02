@@ -30,8 +30,15 @@ package main
 //    Hi inanc
 //    How are you?
 // ---------------------------------------------------------
+import (
+	f "fmt"
+	"os"
+)
 
 func main() {
 	// get your name from the command-line
 	// and print it
+	name := os.Args[1]
+	f.Println("Hi", name)
+	f.Println("How are you?")
 }

@@ -30,7 +30,18 @@ package main
 //  Hello great legolas !
 //  Nice to meet you all.
 // ---------------------------------------------------------
+import (
+	f "fmt"
+	"os"
+)
 
 func main() {
 	// TYPE YOUR CODE HERE
+	f.Println("There are ", len(os.Args)-1, "people!")
+	f.Println("Hello great ", os.Args[1], " !")
+	f.Println("Hello great ", os.Args[2], " !")
+	f.Println("Hello great ", os.Args[3], " !")
+	f.Println("Hello great ", os.Args[4], " !")
+	f.Println("Hello great ", os.Args[5], " !")
+	f.Println("Nice to meet you all.")
 }
