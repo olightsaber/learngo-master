@@ -21,9 +21,14 @@ package main
 // EXPECTED OUTPUT
 //  secret/
 // ---------------------------------------------------------
+import (
+	"fmt"
+	"path"
+)
 
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// ? ?= path.Split("secret/file.txt")
+	dir, _ := path.Split("secret/file.txt")
+	fmt.Println(dir)
 }

@@ -26,14 +26,15 @@ package main
 // EXPECTED OUTPUT
 //  4
 // ---------------------------------------------------------
+import "fmt"
 
 func main() {
 	// ADD YOUR DECLARATIONS HERE
-	//
+	_, b := multi()
 
 	// THEN UNCOMMENT THE CODE BELOW
 
-	// fmt.Println(b)
+	fmt.Println(b)
 }
 
 // multi is a function that returns multiple int values

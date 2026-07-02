@@ -18,10 +18,13 @@ package main
 // EXPECTED OUTPUT
 //  blue red
 // ---------------------------------------------------------
+import "fmt"
 
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// red, blue := "red", "blue"
-	// ?
+	red, blue := "red", "blue"
+	red, blue = blue, red
+
+	fmt.Println(red, blue)
 }
