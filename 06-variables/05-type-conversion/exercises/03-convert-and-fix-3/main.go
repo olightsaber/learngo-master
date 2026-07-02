@@ -16,7 +16,8 @@ package main
 // EXPECTED OUTPUT
 //  5.5
 // ---------------------------------------------------------
+import "fmt"
 
 func main() {
-	// fmt.Println(int(5.5))
+	fmt.Println(float64(5.5))
 }
